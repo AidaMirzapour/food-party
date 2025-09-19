@@ -87,3 +87,10 @@
 .actions button:focus {
   background: linear-gradient(90deg, #fd4715, #f9b241);
 }
+
+.actions button:disabled {
+  background: #ccc; /* رنگ خاکستری برای حالت غیرفعال */
+  cursor: not-allowed; /* تغییر نشانگر موس */
+  box-shadow: none;
+  color: #666;
+}
